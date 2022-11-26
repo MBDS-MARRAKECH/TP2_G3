@@ -16,6 +16,9 @@
 		667D16B929320102007BAEE6 /* TP2_G3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667D16B829320102007BAEE6 /* TP2_G3Tests.swift */; };
 		667D16C329320102007BAEE6 /* TP2_G3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667D16C229320102007BAEE6 /* TP2_G3UITests.swift */; };
 		667D16C529320102007BAEE6 /* TP2_G3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667D16C429320102007BAEE6 /* TP2_G3UITestsLaunchTests.swift */; };
+		66851B20293207080030C6C5 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66851B1F293207080030C6C5 /* CountriesTableViewController.swift */; };
+		66851B23293210970030C6C5 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66851B22293210970030C6C5 /* Country.swift */; };
+		66851B26293211310030C6C5 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66851B25293211310030C6C5 /* Countries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		667D16BE29320102007BAEE6 /* TP2_G3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TP2_G3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		667D16C229320102007BAEE6 /* TP2_G3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP2_G3UITests.swift; sourceTree = "<group>"; };
 		667D16C429320102007BAEE6 /* TP2_G3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP2_G3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66851B1F293207080030C6C5 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		66851B22293210970030C6C5 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		66851B25293211310030C6C5 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		667D169529320101007BAEE6 = {
 			isa = PBXGroup;
 			children = (
+				66851B1F293207080030C6C5 /* CountriesTableViewController.swift */,
 				667D16A029320101007BAEE6 /* TP2_G3 */,
 				667D16B729320102007BAEE6 /* TP2_G3Tests */,
 				667D16C129320102007BAEE6 /* TP2_G3UITests */,
@@ -99,6 +106,8 @@
 		667D16A029320101007BAEE6 /* TP2_G3 */ = {
 			isa = PBXGroup;
 			children = (
+				66851B24293211090030C6C5 /* data */,
+				66851B21293210530030C6C5 /* models */,
 				667D16A129320101007BAEE6 /* AppDelegate.swift */,
 				667D16A329320101007BAEE6 /* SceneDelegate.swift */,
 				667D16A529320101007BAEE6 /* ViewController.swift */,
@@ -125,6 +134,22 @@
 				667D16C429320102007BAEE6 /* TP2_G3UITestsLaunchTests.swift */,
 			);
 			path = TP2_G3UITests;
+			sourceTree = "<group>";
+		};
+		66851B21293210530030C6C5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				66851B22293210970030C6C5 /* Country.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		66851B24293211090030C6C5 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				66851B25293211310030C6C5 /* Countries.swift */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66851B20293207080030C6C5 /* CountriesTableViewController.swift in Sources */,
 				667D16A629320101007BAEE6 /* ViewController.swift in Sources */,
 				667D16A229320101007BAEE6 /* AppDelegate.swift in Sources */,
+				66851B23293210970030C6C5 /* Country.swift in Sources */,
+				66851B26293211310030C6C5 /* Countries.swift in Sources */,
 				667D16A429320101007BAEE6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
